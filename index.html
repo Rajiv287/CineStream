@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CineStream - Your Movie Hub</title>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <header>
+      <h1 class="logo">CineStream</h1>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">Trending</a>
+        <a href="#">Categories</a>
+        <a href="#">Login</a>
+        <button id="dark-mode-toggle">🌙</button>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <h2 class="slide-in">Stream Anytime, Anywhere</h2>
+      <p class="slide-in">Exclusive movies & shows, just for you.</p>
+      <p class="slide-in">Enjoy high-quality streaming without ads.</p>
+      <p class="slide-in">Available on all devices - Watch anytime.</p>
+      <p class="slide-in">
+        Join millions of users & explore top-rated content.
+      </p>
+      <input
+        type="text"
+        placeholder="Search movies..."
+        class="search-bar slide-in"
+      />
+      <button class="hover-grow">Start Watching</button>
+    </section>
+
+    <div class="tabs">
+      <button class="tab-btn active" onclick="filterMovies('all')">All</button>
+      <button class="tab-btn" onclick="filterMovies('action')">Action</button>
+      <button class="tab-btn" onclick="filterMovies('drama')">Drama</button>
+      <button class="tab-btn" onclick="filterMovies('comedy')">Comedy</button>
+    </div>
+
+    <section class="movies">
+      <h2>Trending Now</h2>
+      <div class="movie-grid">
+        <div class="movie-card action">
+          <img src="movie1.jpg" alt="Action Movie" />
+        </div>
+        <div class="movie-card drama">
+          <img src="movie2.jpg" alt="Drama Movie" />
+        </div>
+        <div class="movie-card comedy">
+          <img src="movie3.jpg" alt="Comedy Movie" />
+        </div>
+        <div class="movie-card action">
+          <img src="movie4.jpg" alt="Action Movie" />
+        </div>
+      </div>
+      <h2>Trending Now</h2>
+      <div class="movie-grid">
+        <div class="movie-card action">
+          <img src="movie5.jpg" alt="Action Movie" />
+        </div>
+        <div class="movie-card drama">
+          <img src="movie6.jpg" alt="Drama Movie" />
+        </div>
+        <div class="movie-card comedy">
+          <img src="movie7.jpg" alt="Comedy Movie" />
+        </div>
+        <div class="movie-card action">
+          <img src="movie8.jpg" alt="Action Movie" />
+        </div>
+      </div>
+      <h2>Trending Now</h2>
+      <div class="movie-grid">
+        <div class="movie-card action">
+          <img src="movie9.jpg" alt="Action Movie" />
+        </div>
+        <div class="movie-card drama">
+          <img src="movie10.jpg" alt="Drama Movie" />
+        </div>
+        <div class="movie-card comedy">
+          <img src="movie11.jpg" alt="Comedy Movie" />
+        </div>
+        <div class="movie-card action">
+          <img src="movie12.jpg" alt="Action Movie" />
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>
+        © 2025 CineStream | Follow us on: <a href="#">Instagram</a> |
+        <a href="#">Twitter</a> |
+        <a href="#">Facebook</a>
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
